@@ -1,0 +1,173 @@
+body {
+	background: black;
+	color: green;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 940px;
+	margin-top: 100px;
+}
+
+.clockface {
+	width: 838px;
+	height: 270px;
+	margin: 0 50px;
+
+    -webkit-box-shadow:0 0 20px green; 
+    -moz-box-shadow: 0 0 20px green; 
+    box-shadow:0 0 20px green;
+}
+
+.buttons {
+	font-size: 1.8em;
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#button-start {
+	padding: 5px 10px;
+	min-width: 107px;
+	display: inline-block;
+
+    -webkit-box-shadow:0 0 20px green; 
+    -moz-box-shadow: 0 0 20px green; 
+    box-shadow:0 0 20px green;
+}
+
+form {
+	padding-top: 10px;
+}
+
+#button-stop {
+	padding: 5px 10px;
+	display: inline-block;
+	min-width: 107px;
+
+    -webkit-box-shadow:0 0 20px green; 
+    -moz-box-shadow: 0 0 20px green; 
+    box-shadow:0 0 20px green;
+}
+
+.hours, .minutes, .seconds {
+	width: 270px;
+	height: 100%;
+	float: left;
+}
+
+/*Digits*/
+
+.digit {
+	width: 48%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+.colon {
+	position: relative;
+	width: 20px;
+	float: left;
+}
+
+.bottom-dot {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 180px;
+	left: 10px;
+	background: gray;
+}
+
+.top-dot {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	top: 80px;
+	left: 10px;
+	background: gray;
+}
+
+.hor {
+	position: absolute;
+	background: gray;
+	width: 100px;
+	height: 10px;
+	margin: 20px;
+
+    -webkit-box-shadow:0 0 20px green; 
+    -moz-box-shadow: 0 0 20px green; 
+    box-shadow:0 0 20px green;
+}
+
+.vert {
+	position: absolute;
+	background: gray;
+	width: 10px;
+	height: 100px;
+	margin: 20px;
+
+    -webkit-box-shadow:0 0 20px green; 
+    -moz-box-shadow: 0 0 20px green; 
+    box-shadow:0 0 20px green;
+}
+
+#one {
+	height: 10px; 
+	width: 100px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#two {
+	height: 10px; 
+	width: 100px;
+	position: absolute;
+	top: 110px;
+	left: 10px;
+}
+
+#three {
+	height: 10px; 
+	width: 100px;
+	position: absolute;
+	top: 210px;
+	left: 10px;
+}
+
+#four {
+	height: 80px;
+	width: 10px;
+	position: absolute;
+	top: 24px;
+	left: 10px;
+}
+
+#five {
+	height: 80px;
+	width: 10px;
+	position: absolute;
+	top: 24px;
+	left: 100px;
+}
+
+#six {
+	height: 80px;
+	width: 10px;
+	position: absolute;
+	top: 124px;
+	left: 10px;
+}
+
+#seven {
+	height: 80px;
+	width: 10px;
+	position: absolute;
+	top: 124px;
+	left: 100px;
+}
+
+
+

@@ -1,0 +1,28 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    margin: 80px auto;
+    height: 500px;
+    width: 900px;
+    padding: 50px 0;
+    border: 10px solid black;
+}
+
+.current-time {
+    margin: 20px auto;
+    width: 900px;
+    height: 200px;
+    text-align: center;
+    font-size: 11em;
+}
+
+.colour-time {
+    margin: 20px auto;
+    width: 900px;
+    height: 200px;
+    text-align: center;
+    font-size: 11em;
+}

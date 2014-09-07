@@ -1,0 +1,56 @@
+.wrapper {
+    width: 900px;
+    margin: 100px auto 0;
+    background: #f3f3f3;
+    border: 2px solid black;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper h1 {
+    text-align: center;
+    color: #000;
+}
+
+.main-picture {
+    width: 300px;
+    height: 240px;
+    margin:20px auto 0;
+    border: 2px solid black;
+    display: none;
+}
+
+.picture-row {
+    text-align: center;
+    height: 150px;
+    margin: 20px auto 0;
+}
+
+.picture {
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    background: black;
+    padding: 5px;
+}
+
+.picture img {
+    width:100%;
+}
+
+#one {
+
+}
+
+#two {
+
+}
+
+#three {
+
+}
+
+#four {
+
+}
+
+#five {}

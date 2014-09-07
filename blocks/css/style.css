@@ -1,0 +1,129 @@
+.wrapper {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px;
+    border: 2px solid #5A845A;
+    border-top: none;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+    background: #5A845A;
+    font-size: 1.5em;
+}
+
+.wrapper-block-select {
+    float: left;
+    width: 200px;
+    border-right: 2px solid #5A845A;
+    height: 658px;
+    margin: 0 auo;
+}
+
+
+.wrapper-build-area {
+    float: left;
+    width: 800px;
+    background: white;
+    height: 658px;
+}
+
+
+
+
+/*Shapes*/
+
+.shape {
+    float: left;
+    margin: 20px;
+}
+
+#square {
+    width: 50px;
+    height: 50px;
+}
+
+#rectangle {
+    width: 50px;
+    height: 40px;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid blue;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid orange;
+}
+
+#triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 50px solid yellow;
+    border-bottom: 25px solid transparent;
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid red;
+    border-bottom: 25px solid transparent;
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 50px solid green;
+    border-right: 50px solid transparent;
+}
+
+#triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 50px solid blue;
+    border-left: 50px solid transparent;
+}
+
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid orange;
+    border-right: 50px solid transparent;
+}
+
+#triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid red;
+    border-left: 50px solid transparent;
+}
+
+#parallelogram {
+    width: 55px;
+    height: 50px;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: red;
+}

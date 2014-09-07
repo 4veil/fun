@@ -1,0 +1,75 @@
+.wrapper {
+    width: 1130px;
+    height: 730px;
+    margin: 0 auto;
+}
+
+.palette {
+    float: left;
+    width: 140px;
+    height: 100%;
+    background: #B0C20E;
+    padding: 20px 0;
+}
+
+.palette h1 {
+    text-align: center;
+}
+
+.colour-square {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.canvas {
+    float: left;
+    width: 75%;
+    height: 100%;
+    background: orange;
+    padding: 20px;
+}
+
+.column {
+    width: 275px;
+    height: 100%;
+
+    float: left;
+}
+
+.one {
+    float: left;
+    width: 275px;
+    height: 350px;
+    border: 5px solid black;
+}
+
+.two {
+    float: left;
+    width: 275px;
+    height: 200px;
+    border: 5px solid black;
+}
+
+.three {
+    float: left;
+    width: 275px;
+    height: 150px;
+    border: 5px solid black;
+}

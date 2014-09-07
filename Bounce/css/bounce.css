@@ -1,0 +1,73 @@
+body {
+    background: #B3BDB7;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    border: 2px solid #424744;
+}
+
+.info-panel {
+    float: left;
+    width: 210px;
+    height: 860px;
+    padding: 20px;
+    background: #424744;
+    color: #fff;
+}
+
+.play-area {
+    float: left;
+    width: 745px;
+    position: relative;
+}
+
+.message {
+    position: absolute;
+    width: 500px;
+    top: 300px;
+    left: 130px;
+    text-align: center;
+    display: none;
+    border: 5px solid black;
+    background: #5A845A;
+}
+
+.ball-wrapper {
+    width: 140px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    background: #000;
+    animation: bounce 12s infinite;
+}
+
+
+
+
+@keyframes bounce {
+0%   {margin-top: 200px; animation-timing-function: ease-in;}
+11%  {width: 140px;}
+12%  {margin-top: 750px; width: 140px; animation-timing-function: ease-out;}
+13%  {width: 140px;}
+25%  {margin-top: 200px; animation-timing-function: ease-in;}
+36%  {width: 140px;}
+37%  {margin-top: 750px; width: 140px; animation-timing-function: ease-out;}
+38%  {width: 140px;}
+49%  {margin-top: 200px; animation-timing-function: ease-in;}
+60%  {width: 140px;}
+61%  {margin-top: 750px; width: 140px; animation-timing-function: ease-out;}
+62%  {width: 140px;}
+75%  {margin-top: 200px; animation-timing-function: ease-in;}
+86%  {width: 140px;}
+87%  {margin-top: 750px; width: 140px; animation-timing-function: ease-out;}
+88%  {width: 140px;}
+100% {margin-top: 200px; animation-timing-function: ease-in;}
+}
